@@ -1,0 +1,43 @@
+<html>
+   
+    
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="towords.js"></script>
+
+
+
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+
+
+    </head>
+
+
+  <body background="n.jpg">
+
+
+
+    <h3>
+        Arabic Number Conversion Tool
+        <small class="text-dark" >to convert numbers to words !</small>
+      </h3>
+    <label class="custom-field one">
+        <input type="number" placeholder=" " id="num" value="0" min="0"/>
+        <span class="placeholder">Enter Number to convert</span>
+      </label>
+      
+        <button type="button" class="btn btn-dark" onclick="toWords(document.getElementById('num').value)" >Convert </button>
+        <br>
+      <h3>
+        Result =
+        <small class="text-dark" id="show" >  </small>
+      </h3>
+    
+    
+    
+  </body>
+ 
+</html>
